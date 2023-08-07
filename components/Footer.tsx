@@ -5,6 +5,7 @@ import { FaGithub } from '@react-icons/all-files/fa/FaGithub'
 import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin'
 import { FaMastodon } from '@react-icons/all-files/fa/FaMastodon'
 import { FaTwitter } from '@react-icons/all-files/fa/FaTwitter'
+import { FaWeibo } from '@react-icons/all-files/fa/FaWeibo'
 import { FaYoutube } from '@react-icons/all-files/fa/FaYoutube'
 import { FaZhihu } from '@react-icons/all-files/fa/FaZhihu'
 import { IoMoonSharp } from '@react-icons/all-files/io5/IoMoonSharp'
@@ -96,6 +97,18 @@ export const FooterImpl: React.FC = () => {
             rel='noopener noreferrer'
           >
             <FaGithub />
+          </a>
+        )}
+
+        {config.weibo && (
+          <a
+            className={styles.weibo}
+            href={`https://weibo.com/u/${config.weibo}`}
+            // title={`Weibo @${config.weibo}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaWeibo />
           </a>
         )}
 

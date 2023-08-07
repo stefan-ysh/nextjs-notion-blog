@@ -19,6 +19,7 @@ export default siteConfig({
   // social usernames (optional)
   twitter: 'stefan_ysh',
   github: 'stefan-ysh',
+  weibo: '5514452828',
   // linkedin: 'fisch2',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL

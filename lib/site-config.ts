@@ -9,6 +9,7 @@ export interface SiteConfig {
   author: string
   description?: string
   language?: string
+  weibo: string
 
   twitter?: string
   github?: string
