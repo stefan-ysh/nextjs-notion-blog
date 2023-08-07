@@ -102,6 +102,10 @@
 }
 
 .github:hover {
+  color: #afbac6;
+}
+
+.weibo:hover {
   color: #c9510c;
 }
 
