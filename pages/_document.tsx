@@ -18,6 +18,7 @@ export default class MyDocument extends Document {
             />
 
             <link rel='manifest' href='/manifest.json' />
+            <script defer src="https://umami.tiantian.group/script.js" data-website-id="c8a15082-7869-43aa-908b-52b8663e77a7"></script>
           </Head>
 
           <body>
